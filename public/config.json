@@ -1,0 +1,32 @@
+{
+  "appVersion": "2.0.0",
+
+  "apiUrl": "api",
+  "loginUrl": "api/auth/arcgis",
+  "logoutUrl": "api/logout",
+  "jsapiUrl": "https://js.arcgis.com/4.12/",
+  "jsapiV4": true,
+
+  "clientId": "hkdtqXBMmZ8JJ5tD",
+
+  "sessionId": "esri-react-boot_session",
+
+  "mapConfig": {
+    "basemap": "dark-gray-vector",
+    "center": [-118.132, 34.169],
+    "zoom": 13
+  },
+
+  "companyInfo": {
+    "name": "Donuts Shop",
+    "logoURL": "./assets/truck.png",
+    "websiteURL": "http://google.com",
+    "primaryColor": "#476088",
+    "secondaryColor": "#FF6D74",
+    "data": {
+      "mapServiceURL": "",
+      "deliveryTruckCapacity": 8,
+      "shopLocation": { "latitude": 34.169, "longitude": -118.132 }
+    }
+  }
+}
